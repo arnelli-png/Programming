@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+print (f"Hello, {name}!")
+country = input("What country do you want to study in? ")
+print (f"Great! {country} is a beautiful country!")
+university = input("What university do you dream of studying at? ")
+print(f"Awesome! {university} is a great university!")
