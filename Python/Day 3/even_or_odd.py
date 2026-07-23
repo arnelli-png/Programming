@@ -1,0 +1,13 @@
+question = "What number is even? "
+number =int(input(question))
+if number % 2 == 0: 
+    print("Congratulations! You entered an even number!")
+else:
+    print("Sorry, you entered an odd number. Please try again!")
+    question = "What number is odd? "
+    number = int(input(question))
+    if number % 2 != 0:
+        print("Congretulations! You entered an odd number!")
+    else: 
+        print("Sorry, you entered an even number. Please try again!")
+        

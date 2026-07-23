@@ -1,0 +1,10 @@
+question = ("How old are you? ")
+age = int(input(question))
+if age <= 13:
+    print("You are a child.")
+elif age <= 19:
+    print("You are a teenage.")
+elif age <= 64:
+    print("You are an adult.")
+else: 
+    print("You are a senior citizen.")
